@@ -14,4 +14,9 @@ export default defineConfig({
     tailwindcss(),   // Scans your JSX for Tailwind classes and builds only the CSS you actually use
   ],
   root: 'src',
+  server: {
+    host: '0.0.0.0', // Bind to all interfaces
+    port: 5173,
+    strictPort: false, // Allow fallback to next available port if 5173 is taken
+  },
 });
