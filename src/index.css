@@ -29,15 +29,15 @@
   /* ── Primitives — raw palette values ──
    * These define the raw colour palette. They generate classes (e.g. bg-cream-50)
    * but you should avoid using them directly — use semantic tokens instead. */
-  --color-gray-900: #111;
+  --color-gray-900: #402d66;
   --color-gray-700: #333;
   --color-gray-500: #666;
   --color-cream-50:  #f7f7f4;
   --color-cream-100: #f2f1ed;
   --color-cream-200: #e6e5e0;
   --color-cream-300: #D8D6CE;
-  --color-ink:       #26251e;
-  --color-ink-50:    rgba(38, 37, 30, 0.5);
+  --color-ink:       #402d66;
+  --color-ink-50:    rgba(64, 45, 102, 0.5);
 
   /* ── Semantic — purpose-based, reference primitives ──
    * These are the tokens you use in components.
